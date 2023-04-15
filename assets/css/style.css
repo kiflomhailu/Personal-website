@@ -431,7 +431,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg\(3\).jpg") top right;
+  background: url("../img/hero-best5.jpg") top right;
   background-size: cover;
 }
 
@@ -451,16 +451,16 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color:magenta;
+  color:aquamarine;
 }
 
 #hero h3 {
-  color:magenta;
+  color:aquamarine;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
 #hero h5 {
-  color:magenta;
+  color:aquamarine;
   /* margin: 10px 0 0 0;
   font-size: 22px; */
 }
