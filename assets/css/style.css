@@ -434,7 +434,7 @@ h6 {
   background: url("../img/hero_current.jpg") top right;
   background-size: cover;
   position: relative;
-  color: hotpink; /* Set text color */
+  color:aquamarine; /* Set text color */
 }
 
 #hero .container {
