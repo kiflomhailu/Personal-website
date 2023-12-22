@@ -442,8 +442,28 @@ h6 {
 }
 
 @media (max-width: 992px) {
+  #hero:before {
+    background: url("../img/hero-best5.jpg") top right; /* Update the background image for mobile */
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
   #hero .container {
     padding-top: 58px;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
   }
 }
 
@@ -491,27 +511,6 @@ h6 {
   }
 }
 
-@media (max-width: 992px) {
-  #hero:before {
-    background: url("../img/hero-best5.jpg") top right;
-    content: "";
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
 
 
 /*--------------------------------------------------------------
