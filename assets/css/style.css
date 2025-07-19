@@ -514,7 +514,56 @@ h6 {
     background-attachment: fixed;
   }
 }
+/* Add this at the bottom of your stylesheet */
 
+/* Hero Section Custom Styles */
+#hero h5 {
+  color: #7FFFD4; /* Aquamarine, fresh and modern */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+#hero h2 {
+  color: #fff; /* Bright white for strong visibility */
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* Deep shadow for readability */
+  font-size: 48px;
+  font-weight: 800;
+}
+
+#hero h3 {
+  color: #d2e1fa; /* Soft blue/gray for subtle contrast */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+  font-size: 22px;
+}
+
+#hero .btn-about {
+  margin-top: 30px;
+}
+
+.youtube-btn {
+  display: inline-flex;
+  align-items: center;
+  background: #ff0000;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 24px;
+  font-size: 1.1em;
+  border: none;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 18px rgba(255,0,0,0.1);
+  text-decoration: none;
+  margin-top: 16px;
+}
+.youtube-btn .bi-youtube {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+.youtube-btn:hover, .youtube-btn:focus {
+  background: #c80000;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 6px 24px rgba(255,0,0,0.15);
+}
 
 
 /*--------------------------------------------------------------
@@ -781,13 +830,13 @@ section {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #222222;
+  color: #333333;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #34b7a7;
+  border-left: 2px solid #2d5016;
   position: relative;
 }
 
@@ -796,18 +845,18 @@ section {
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #1d685f;
+  color: #2d5016;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #effbf9;
+  background: #e8f5e8;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #34b7a7;
+  color: #2d5016;
 }
 
 .resume .resume-item ul {
@@ -830,8 +879,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #34b7a7;
+  background: #e8f5e8;
+  border: 2px solid #2d5016;
 }
 
 /*--------------------------------------------------------------
@@ -1383,6 +1432,34 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+/*--------------------------------------------------------------
+# Custom YouTube Button
+--------------------------------------------------------------*/
+.youtube-btn {
+  display: inline-flex;
+  align-items: center;
+  background: #ff0000;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 24px;
+  font-size: 1.1em;
+  border: none;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 18px rgba(255,0,0,0.1);
+  text-decoration: none;
+  margin-top: 16px;
+}
+.youtube-btn .bi-youtube {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+.youtube-btn:hover, .youtube-btn:focus {
+  background: #c80000;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 6px 24px rgba(255,0,0,0.15);
 }
 
 /*--------------------------------------------------------------

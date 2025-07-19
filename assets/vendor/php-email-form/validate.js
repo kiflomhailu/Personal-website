@@ -64,11 +64,12 @@
     })
     .then(data => {
       thisForm.querySelector('.loading').classList.remove('d-block');
-      if (data.trim() == 'OK') {
+      // Check if response contains success indicators (FormSubmit returns HTML)
+      if (data.includes('Thank you') || data.includes('success') || data.includes('sent') || response.ok) {
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
-        throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action); 
+        throw new Error('Form submission failed. Please try again.'); 
       }
     })
     .catch((error) => {
